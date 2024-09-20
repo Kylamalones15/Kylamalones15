@@ -1,0 +1,76 @@
+def condition(value):
+
+
+
+    if value > 10:
+
+
+
+        return True
+
+    else:
+
+        return False
+
+        
+
+result = condition(15)
+
+print(result) 
+
+
+
+# List
+
+favorite_things = ["purple", "Cat", "sunset",  15, True]
+
+print("My favorite things: ", favorite_things)
+
+
+
+# Tuple
+
+daily_routine = ("wake up", "eat", "sleep", 15, False)
+
+print("My daily routine: ", daily_routine)
+
+
+
+# Set 
+
+dreams = { "travel the world", "to own a business", 15, True}
+
+print("My dreams: ", dreams)
+
+
+
+# Dictionary: A collection of key-value pairs (Mapping)
+
+about_me = {
+
+    "name": "Kyla",
+
+    "age": 22, 
+
+    "is_student": True,
+
+    "favorite_number": 15,
+
+    "talents": [ "singing", "dancing"]
+
+}
+
+
+
+# Dictionary elements
+
+print(f" And name is {about_me['name']} and I love {', '.join(about_me['talents'])}")
+
+
+
+# Checking Boolean 
+
+if about_me["is_student"]:
+
+    print("I'm currently studying in PLMUN")
+
